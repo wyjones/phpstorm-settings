@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a206bbc1-e705-4a66-b944-ae044cf7cd38" name="newhost.local" url="http://newhost.local">
+        <fileTransfer host="newhost.local" port="22" rootFolder="/home/newhost/larasix/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
