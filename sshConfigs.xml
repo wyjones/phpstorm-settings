@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="newhost.local" id="2a328d72-f596-4007-bbd1-c49551fc7100" port="22" customName="newhost.local" nameFormat="CUSTOM" username="newhost" />
+    </configs>
+  </component>
+</application>
