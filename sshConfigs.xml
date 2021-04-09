@@ -1,8 +1,12 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="newhost.local" id="2a328d72-f596-4007-bbd1-c49551fc7100" port="22" customName="newhost.local" nameFormat="CUSTOM" username="newhost" />
-      <sshConfig authType="PASSWORD" host="newhost.local" id="dbc578f7-64a4-4fb9-a309-868d1fe43f7c" port="22" customName="newhost.local" nameFormat="CUSTOM" username="newhost" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="newhost.local" id="2a328d72-f596-4007-bbd1-c49551fc7100" port="22" customName="newhost.local" nameFormat="CUSTOM" username="newhost">
+        <option name="customName" value="newhost.local" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="newhost.local" id="dbc578f7-64a4-4fb9-a309-868d1fe43f7c" port="22" customName="newhost.local" nameFormat="CUSTOM" username="newhost">
+        <option name="customName" value="newhost.local" />
+      </sshConfig>
     </configs>
   </component>
 </application>
